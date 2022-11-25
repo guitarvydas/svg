@@ -19,9 +19,9 @@ SVG {
 ```
 
 and a screenshot of the parse, in Ohm-Editor, is:
-~[trivial SVG parser](parser.png)
+![trivial SVG parser](parser.png)
 
 The SVG looks like this in a browser:
-~[rect](rect.png)
+![rect](rect.png)
 
 It is easy to extend the grammar to include more details, like x,y,width,height,fill,stroke, etc., etc.
