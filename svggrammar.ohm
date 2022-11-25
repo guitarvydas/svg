@@ -1,0 +1,7 @@
+SVG {
+  Blueprint =  "<svg" stuff ">" GraphicObject+ "</svg>"
+  GraphicObject =
+    | Rect
+  Rect = "<rect" stuff "/>"
+  stuff = (~">" ~"/>" any)+
+}
