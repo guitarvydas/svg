@@ -1,0 +1,9 @@
+SVG {
+  Blueprint =  "<svg" stuff ">" Rect+ "</svg>"
+  Rect = GrayRect | RedRect
+  GrayRect = "<rect" stuff gray stuff "/>"
+  RedRect = "<rect" stuff red stuff "/>"
+  stuff = (~">" ~"/>" ~"fill=" any)*
+  gray = "fill=\"gray\""
+  red = "fill=\"red\""
+}
